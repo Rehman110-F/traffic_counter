@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Traffic Counting System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+  
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <div class="status-indicator">
+          <div class="pulse"></div>
+          <span>LIVE</span>
+        </div>
+        <h1>Online Traffic Counting System</h1>
+        <p class="subtitle">Real-time Object Detection & Counting</p>
+      </div>
+      
+      <div class="content">
+        <div id="data-container" class="data-grid">
+          <div class="loading-spinner">
+            <div class="spinner"></div>
+            <span>Loading data...</span>
+          </div>
+        </div>
+        
+        <div class="footer">
+          <div id="last-updated" class="last-updated"></div>
+          <div class="refresh-indicator">
+            <div class="refresh-icon">⟳</div>
+            <span>Auto-refresh: 5s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
