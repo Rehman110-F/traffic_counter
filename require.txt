@@ -1,0 +1,35 @@
+# Core scientific / utility libraries
+numpy>=1.23
+pandas>=2.0
+Pillow>=11.0
+pathlib>=1.0
+opencv-python>=4.7
+matplotlib>=3.5
+
+# YOLO / Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0
+
+# Jupyter display (optional if using notebooks)
+ipython>=8.0
+ipywidgets>=8.0
+
+# Utilities
+tqdm>=4.65
+scipy>=1.10
+
+# in  code versions
+Pathlib: <class 'pathlib.Path'>
+NumPy: 2.2.6
+Pandas: 2.3.1
+OpenCV: 4.12.0
+Pillow: 11.3.0
+Torch: 2.8.0+cpu
+TorchVision: 0.23.0+cpu
+Ultralytics: 8.3.179
+IPython: IPython.display
+ipywidgets: 8.1.7
+tqdm: 4.67.1
+SciPy: 1.15.3
+Matplotlib: 3.10.5
